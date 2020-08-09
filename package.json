@@ -1,0 +1,29 @@
+{
+  "name": "sampleproject",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+
+    "run_On_Multi_Browsers": "testcafe chrome:headless,firefox:headless,ie:headless ./regression_Tests",
+    "Multi": "testcafe ie:headless ./regression_Tests",
+    "Multi_Browsers": "testcafe chrome:headless,firefox:headless,iexplore:headless ./regression_Tests",
+    "test1": "testcafe -c 2 chrome ./regression_Tests",
+    "test": "testcafe chrome ./regression_Tests",
+    "testm": "testcafe chrome,firefox,ie ./regression_Tests",
+    "htmlReport": "testcafe chrome:headless ./regression_Tests --reporter html:regression_Tests.html",
+    "tests": "testcafe remote chrome ./regression_Tests",
+    "testqr": "testcafe remote chrome ./regression_Tests --qr-code"
+
+
+
+
+  },
+  "author": "FullStack QA",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.0.5",
+    "testcafe": "^1.8.8",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
