@@ -1,0 +1,26 @@
+{
+    "browsers": "chrome",
+    "src": ["Desktop", "Mobile"],
+ 
+    "reporter": { 
+        "name": "html",
+        "output": "reports/report.html"
+    },
+ 
+    "screenshotPath": "failures/Screenshots",
+    "takeScreenshotsOnFails": true,
+    "videoPath": "failures/Videos",
+ 
+    "videoOptions": {
+        "failedOnly":true
+    },
+ 
+    "videoEncodingOptions": {
+        "r": 20,
+        "aspect": "16:9"
+    },
+ 
+    "stopOnFirstFail": true,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true
+}
