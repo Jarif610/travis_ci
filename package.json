@@ -9,7 +9,7 @@
     "Multi": "testcafe ie:headless ./regression_Tests",
     "Multi_Browsers": "testcafe chrome:headless,firefox:headless,iexplore:headless ./regression_Tests",
     "test1": "testcafe -c 2 chrome ./regression_Tests",
-    "test": "testcafe chrome ./regression_Tests",
+    "test": "testcafe chrome,firefox ./regression_Tests",
     "testm": "testcafe chrome,firefox,ie ./regression_Tests",
     "htmlReport": "testcafe chrome:headless ./regression_Tests --reporter html:regression_Tests.html",
     "tests": "testcafe remote chrome ./regression_Tests",
