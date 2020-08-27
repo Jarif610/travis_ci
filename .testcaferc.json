@@ -1,0 +1,16 @@
+{
+    "browsers": "chrome",
+    "src": ["Desktop", "Mobile"],
+ 
+    "reporter": { 
+        "name": "html",
+        "output": "reports/report.html"
+    },
+ 
+    "screenshotPath": "failures/Screenshots",
+    "takeScreenshotsOnFails": true,
+ 
+    "stopOnFirstFail": true,
+    "skipJsErrors": true,
+    "skipUncaughtErrors": true
+}
