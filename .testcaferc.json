@@ -1,5 +1,6 @@
 {
     "browsers": "chrome",
+    "browsers": "firefox",
     "src": ["Desktop", "Mobile"],
  
     "reporter": { 
