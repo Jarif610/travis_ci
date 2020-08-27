@@ -9,7 +9,7 @@
  
     "screenshotPath": "failures/Screenshots",
     "takeScreenshotsOnFails": true,
-    //"videoPath": "failures/Videos",
+    #"videoPath": "failures/Videos",
     //"ffmpegPath": "C:/FFmpeg",
  
     //"videoOptions": {
