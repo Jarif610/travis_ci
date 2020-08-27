@@ -9,17 +9,17 @@
  
     "screenshotPath": "failures/Screenshots",
     "takeScreenshotsOnFails": true,
-    #"videoPath": "failures/Videos",
-    //"ffmpegPath": "C:/FFmpeg",
+    "videoPath": "failures/Videos",
+    "ffmpegPath": "C:/FFmpeg",
  
-    //"videoOptions": {
-        //"failedOnly":true
-    //},
+    "videoOptions": {
+        "failedOnly":true
+    },
  
-    //"videoEncodingOptions": {
-        //"r": 20,
-        //"aspect": "16:9"
-    //},
+    "videoEncodingOptions": {
+        "r": 20,
+        "aspect": "16:9"
+    },
    
     "stopOnFirstFail": true,
     "skipJsErrors": true,
