@@ -9,6 +9,7 @@
  
     "screenshotPath": "failures/Screenshots",
     "takeScreenshotsOnFails": true,
+    /*
     "videoPath": "failures/Videos",
     "ffmpegPath": "C:/FFmpeg",
  
@@ -20,7 +21,7 @@
         "r": 20,
         "aspect": "16:9"
     },
- 
+    */
     "stopOnFirstFail": true,
     "skipJsErrors": true,
     "skipUncaughtErrors": true
