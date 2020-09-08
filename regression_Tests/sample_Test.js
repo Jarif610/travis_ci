@@ -5,7 +5,7 @@ fixture `Getting Started`
     
 test('My first test', async t => {
 
-    const checkBox = Selector('#remote-testing')
+    const checkBox = Selector('#remote-test')
     await t.click(checkBox)
 
     await t.wait(5000)
