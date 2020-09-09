@@ -8,7 +8,7 @@ test('My first test', async t => {
     const checkBox = Selector('#remote-test')
     await t.click(checkBox)
 
-    await t.wait(5000)
+    await t.wait(6000)
 
 });
 
