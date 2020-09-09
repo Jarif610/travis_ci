@@ -12,6 +12,7 @@ test('My first test', async t => {
 
 });
 
+/*
 fixture `Getting Started1`
 //.page `http://omayo.blogspot.com/`;
     .page `http://www.webdriveruniversity.com/`;
@@ -26,3 +27,4 @@ test('My second test', async t => {
     await t.typeText(enterText, "Jarif Chowdhury", {replace:true})
 
 });
+*/
